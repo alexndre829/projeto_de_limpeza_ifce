@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <a href="home.html">Home</a> |
+        <a href="index.html">Login</a> |
+        <a href="cadastro.html">Cadastro</a>
+    </div>
+    <hr>
+    
+    <h1>Cadastro de Produtos</h1>
+    
+    <h2>Novo Produto</h2>
+    <form>
+        <p><label>Nome:</label><br><input type="text" placeholder="Nome"></p>
+        <p><label>Categoria:</label><br>
+            <select>
+                <option>Cozinha</option>
+                <option>Banheiro</option>
+                <option>Lavanderia</option>
+            </select>
+        </p>
+        <p><label>Preço:</label><br><input type="text" placeholder="0,00"></p>
+        <p><label>Estoque:</label><br><input type="number" placeholder="0"></p>
+        <p><button type="button">Cadastrar</button></p>
+    </form>
+    
+    <hr>
+    
+    <h2>Produtos</h2>
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Produto</th><th>Categoria</th><th>Preço</th><th>Ações</th>
+        </tr>
+        <tr>
+            <td>Detergente</td><td>Cozinha</td><td>R$ 4,50</td>
+            <td><button>Alterar</button> <button>Apagar</button></td>
+        </tr>
+        <tr>
+            <td>Desinfetante</td><td>Banheiro</td><td>R$ 6,90</td>
+            <td><button>Alterar</button> <button>Apagar</button></td>
+        </tr>
+        <tr>
+            <td>Água Sanitária</td><td>Lavanderia</td><td>R$ 3,20</td>
+            <td><button>Alterar</button> <button>Apagar</button></td>
+        </tr>
+    </table>
+    
+    <hr>
+    <p>© 2026 LimpMais</p>
+</body>
+</html>
